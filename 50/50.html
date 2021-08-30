@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>50</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Fogd el a rovart</h1>
+      <button class="btn" id="start-btn">Indítás</button>
+    </div>
+
+    <div class="screen">
+      <h1>Melyik a "kedvenc" rovarod?</h1>
+      <ul class="insects-list">
+        <li>
+          <button class="choose-insect-btn">
+            <p>Légy</p>
+            <img src="http://pngimg.com/uploads/fly/fly_PNG3946.png" alt="fly">
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Szúnyog</p>
+            <img
+               src="http://pngimg.com/uploads/mosquito/mosquito_PNG18175.png"
+               alt="mosquito"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Pók</p>
+            <img
+               src="http://pngimg.com/uploads/spider/spider_PNG12.png"
+               alt="spider"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Csótány</p>
+            <img
+               src="http://pngimg.com/uploads/roach/roach_PNG12163.png"
+               alt="roach"
+               />
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <h3 id="time" class="time">Idő: 00:00</h3>
+      <h3 id="score" class="score">Pontszám: 0</h3>
+      <h5 id="message" class="message">
+        Zaklatott vagy még? <br>
+        Lehetetlen játékot játszol!!
+      </h5>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
